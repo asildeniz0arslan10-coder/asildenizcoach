@@ -3,46 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aşil Deniz Coach - Spor & Beslenme</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Aşil Deniz Coach</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header / Menü -->
     <header>
-        <nav>
+        <div class="container">
             <h1>Aşil Deniz Coach</h1>
-            <ul>
-                <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="workouts.html">Antrenman</a></li>
-                <li><a href="nutrition.html">Beslenme</a></li>
-                <li><a href="about.html">Hakkında</a></li>
-                <li><a href="contact.html">İletişim</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h2>Güçlü Vücut, Sağlıklı Yaşam</h2>
-            <p>Antrenman ve beslenme rehberleri burada!</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#antrenman">Antrenman</a></li>
+                    <li><a href="#beslenme">Beslenme</a></li>
+                    <li><a href="#hakkinda">Hakkında</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <main>
-        <section class="features">
-            <div>
-                <h3>Antrenman Programları</h3>
-                <p>Evde veya spor salonunda uygulayabileceğiniz programlar.</p>
-            </div>
-            <div>
-                <h3>Beslenme Rehberi</h3>
-                <p>Kilo almak veya vermek için sağlıklı ipuçları.</p>
-            </div>
-            <div>
-                <h3>Motivasyon</h3>
-                <p>Başarı hikayeleri ve günlük motivasyon yazıları.</p>
-            </div>
-        </section>
-    </main>
+    <!-- Hero / Ana Bölüm -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Güçlü Vücut, Sağlıklı Yaşam</h2>
+            <p>Antrenman ve beslenme rehberleri burada!</p>
+            <a href="#antrenman" class="btn">Antrenman Programları</a>
+            <a href="#beslenme" class="btn">Beslenme Rehberi</a>
+        </div>
+    </section>
 
+    <!-- Antrenman Programları -->
+    <section id="antrenman" class="section">
+        <div class="container">
+            <h3>Antrenman Programları</h3>
+            <p>Evde veya spor salonunda uygulayabileceğiniz programlar.</p>
+        </div>
+    </section>
+
+    <!-- Beslenme Rehberi -->
+    <section id="beslenme" class="section">
+        <div class="container">
+            <h3>Beslenme Rehberi</h3>
+            <p>Kilo almak veya vermek için sağlıklı ipuçları.</p>
+        </div>
+    </section>
+
+    <!-- Motivasyon -->
+    <section id="motivasyon" class="section">
+        <div class="container">
+            <h3>Motivasyon</h3>
+            <p>Başarı hikayeleri ve günlük motivasyon yazıları.</p>
+        </div>
+    </section>
+
+    <!-- Hakkında -->
+    <section id="hakkinda" class="section">
+        <div class="container">
+            <h3>Hakkında</h3>
+            <p>Aşil Deniz Coach olarak amacım, sağlıklı yaşam ve güçlü vücut için size rehberlik etmektir.</p>
+        </div>
+    </section>
+
+    <!-- İletişim -->
+    <section id="iletisim" class="section">
+        <div class="container">
+            <h3>İletişim</h3>
+            <p>E-posta: <a href="mailto:asildeniz0arslan10@gmail.com">asildeniz0arslan10@gmail.com</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Aşil Deniz Coach | <a href="contact.html">İletişim</a></p>
+        <div class="container">
+            <p>© 2025 Aşil Deniz Coach | <a href="mailto:asildeniz0arslan10@gmail.com">İletişim</a></p>
+        </div>
     </footer>
 </body>
 </html>
